@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="skin.embuary2k.omega" name="[COLOR green]T[/COLOR]eddy[COLOR green]k[/COLOR]uddels [COLOR blue]S[/COLOR]kin [COLOR blue]E[/COLOR]mbuary [COLOR orange]2K[/COLOR] " version="4.0.00" provider-name="[COLOR orange]Team Embuary[/COLOR]">
-	<extension point="xbmc.addon.repository" name="GUIDOS SKINBASE REPO">
+<addon id="skin.embuary2k.omega" name="[COLOR green]T[/COLOR]eddy[COLOR green]k[/COLOR]uddels [COLOR blue]S[/COLOR]kin [COLOR blue]E[/COLOR]mbuary [COLOR orange]2K[/COLOR] " version="21.0.1" provider-name="[COLOR orange]Team Embuary[/COLOR]">
+	<extension point="xbmc.addon.repository" name="Embuary 2K">
 	<dir minversion="20.9.0">
 		<info compressed="false">https://raw.github.com/Teddyknuddel/embuary.omega/tree/main/repository.skin.embuary2k/addons.xml</info>
 		<checksum>https://raw.github.com/Teddyknuddel/embuary.omega/tree/main/repository.skin.embuary2k/addons.xml.md5</checksum>
@@ -14,6 +14,7 @@
 		<description lang="de_DE">Die bekannte und beliebte Skin Embuary von Sualfred ist im UHD-Zeitalter angekommen. Dank der 2K Modifikation von Teddyknuddel kann das volle Potenzial eines UHD Displays (auch auf FullHD macht es eine gute Figur) genutzt werden. Durch die CPM Modifikation von jamal2367 erhält man detaillierte Informationen über Dolby Vision und Video Tonspuren. Embuary ist dem Web UI von Emby nachempfunden und für Emby-for-Kodi und EmbyCon Nutzer entwickelt worden, funktioniert aber auch für alle gängigen Kodi Setups.</description>
 		<disclaimer lang="en_GB">No mouse support. With the installation of the skin you agree that you don't use it in combination with blacklisted and illegal Kodi add-ons. We are not associated with any available build and I won't give any support to blacklisted, banned or illegal third party addons.</disclaimer>
 		<disclaimer lang="de_DE">Keine Maus Unterstützung. Mit der Installation des Skins erklärst du dich damit einverstanden keine verbotenen und illegalen Addons von Kodi damit zu benutzen. Wir stehen in keinerlei Verbindung zu verfübaren Builds und gebe keinen Support für diese oder andere illegalen Drittanbieter-Addons.</disclaimer>
+		<platform>all</platform>
 		<platform>all</platform>
 		<assets>
 			<icon>resources/icon2k.png</icon>
