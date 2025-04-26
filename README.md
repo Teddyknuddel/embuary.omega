@@ -24,4 +24,4 @@ Both the repository and the skins themselves are automatically updated via the r
 
 _________________________________________________________________________________________
 
-Buy me a coffee https://www.paypal.com/donate/?hosted_button_id=FFKRSCZD77NVW
+
