@@ -21,3 +21,7 @@ The well-known and popular Skin Embuary from Sualfred has arrived in the UHD age
 
 ## Updates
 Both the repository and the skins themselves are automatically updated via the repository (provided the option is enabled in Kodi).
+
+_________________________________________________________________________________________
+
+
