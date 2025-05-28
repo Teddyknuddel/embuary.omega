@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.embuary.cpm" version="19.0.1" name="Embuary CPM" provider-name="sualfred">
+<addon id="skin.embuary.cpm" version="20.0.1" name="Embuary (CPM)" provider-name="sualfred">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0"/>
 		<import addon="script.embuary.helper" version="1.3.6"/>
