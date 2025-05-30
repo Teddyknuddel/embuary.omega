@@ -24,8 +24,8 @@
 		<disclaimer lang="de_DE">Keine Maus Unterstützung. Mit der Installation des Skins erklärst du dich damit einverstanden keine verbotenen und illegalen Addons von Kodi damit zu benutzen. Ich stehe in keinerlei Verbindung zu verfübaren Builds und gebe keinen Support für diese oder andere illegalen Drittanbieter-Addons.</disclaimer>
 		<platform>all</platform>
 		<license>CC-BY-NC-ND-4.0</license>
-		<forum>https://emby.media/community/index.php?/topic/49724-beta-embuary-the-emby-kodi-skin/</forum>
-		<source>https://github.com/sualfred/skin.embuary</source>
+		<forum>https://emby.media/community/index.php?/topic/137508-embuary-2k4k-cpm-modification/</forum>
+		<source>https://github.com/Teddyknuddel/embuary.omega</source>
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
