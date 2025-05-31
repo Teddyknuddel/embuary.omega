@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <addons>
-<addon id="skin.embuary2k.omega" version="21.1.0" name="Embuary 2K (Omega)" provider-name="sualfred, Teddyknuddel, Stogie">
+<addon id="skin.embuary.omega" version="21.1.0" name="Embuary (Omega)" provider-name="sualfred, Teddyknuddel, Stogie">
 	<requires>
+		<requires>
 		<import addon="script.embuary.helper" version="1.3.6"/>
 		<import addon="script.embuary.info" version="1.2.4"/>
 		<import addon="resource.uisounds.embuary" version="0.0.4"/>
@@ -13,26 +14,32 @@
 		<import addon="script.episodejumper" version="1.0.1"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
-		<res width="2560" height="1440" aspect="16:9" default="true" folder="xml" />
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Embuary skin - Creator sualfred - 2k-Modification Teddyknuddel</summary>
-		<summary lang="de_DE">Embuary Skin - Ersteller sualfred - 2k-Modifikation Teddyknuddel</summary>
-		<description lang="en_GB">The well-known and popular Embuary skin by Sualfred has entered the UHD era. Thanks to the 2K modification by Teddyknuddel, you can utilize the full potential of a UHD display (it also looks great in Full HD). The CPM modification (optimized for CoreELEC CPM versions in conjunction with Amlogic NG processors) provides detailed information about Dolby Vision and video audio tracks. Embuary is modeled after Emby's web UI and was developed for Emby-for-Kodi and EmbyCon users, but also works with all common Kodi setups.</description>
-		<description lang="de_DE">Die bekannte und beliebte Skin Embuary von Sualfred ist im UHD-Zeitalter angekommen. Dank der 2K Modifikation von Teddyknuddel kann das volle Potenzial eines UHD Displays (auch auf FullHD macht es eine gute Figur) genutzt werden. Mit der CPM Modifikation (optimiert für  CoreELEC CPM Versionen in Verbindung mit Amlogic NG Prozessoren) erhält man detaillierte Informationen über Dolby Vision und Video Tonspuren. Embuary ist dem Web UI von Emby nachempfunden und für Emby-for-Kodi und EmbyCon Nutzer entwickelt worden, funktioniert aber auch für alle gängigen Kodi Setups.</description>
-		<disclaimer lang="en_GB">No mouse support. With the installation of the skin you agree that you don't use it in combination with blacklisted and illegal Kodi add-ons. We are not associated with any available build and I won't give any support to blacklisted, banned or illegal third party addons.</disclaimer>
-		<disclaimer lang="de_DE">Keine Maus Unterstützung. Mit der Installation des Skins erklärst du dich damit einverstanden keine verbotenen und illegalen Addons von Kodi damit zu benutzen. Wir stehen in keinerlei Verbindung zu verfübaren Builds und gebe keinen Support für diese oder andere illegalen Drittanbieter-Addons.</disclaimer>
+		<summary lang="en_GB">Embuary skin by Sualfred</summary>
+		<summary lang="de_DE">Embuary Skin von Sualfred</summary>
+		<description lang="en_GB">Embuary is based on the web UI of Emby and has been developed for Emby-For-Kodi and EmbyCon users, but will also work for any other common Kodi setup.</description>
+		<description lang="de_DE">Embuary ist dem Web UI von Emby nachempfunden und für Emby-For-Kodi und EmbyCon Nutzer entwickelt worden, aber funktioniert auch für alle gängigen Kodi Setups.</description>
+		<disclaimer lang="en_GB">No mouse support. With the installation of the skin you agree that you don't use it in combination with blacklisted and illegal Kodi add-ons. I'm not associated with any available build and I won't give any support to blacklisted, banned or illegal third party addons.</disclaimer>
+		<disclaimer lang="de_DE">Keine Maus Unterstützung. Mit der Installation des Skins erklärst du dich damit einverstanden keine verbotenen und illegalen Addons von Kodi damit zu benutzen. Ich stehe in keinerlei Verbindung zu verfübaren Builds und gebe keinen Support für diese oder andere illegalen Drittanbieter-Addons.</disclaimer>
 		<platform>all</platform>
 		<license>CC-BY-NC-ND-4.0</license>
 		<forum>https://emby.media/community/index.php?/topic/137508-embuary-2k4k-cpm-modification/</forum>
 		<source>https://github.com/Teddyknuddel/embuary.omega</source>
 		<assets>
-			<icon>resources/icon2k.png</icon>
+			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
-			<screenshot>resources/Screenshot-01.jpg</screenshot>
-			<screenshot>resources/Screenshot-02.jpg</screenshot>
-			<screenshot>resources/Screenshot-03.jpg</screenshot>
-			<screenshot>resources/Screenshot-04.jpg</screenshot>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+			<screenshot>resources/screenshot-04.jpg</screenshot>
+			<screenshot>resources/screenshot-05.jpg</screenshot>
+			<screenshot>resources/screenshot-06.jpg</screenshot>
+			<screenshot>resources/screenshot-07.jpg</screenshot>
+			<screenshot>resources/screenshot-08.jpg</screenshot>
+			<screenshot>resources/screenshot-09.jpg</screenshot>
+			<screenshot>resources/screenshot-10.jpg</screenshot>
 		</assets>
 	</extension>
 </addon>
