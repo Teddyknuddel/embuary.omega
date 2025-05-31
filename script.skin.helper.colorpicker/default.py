@@ -1,11 +1,12 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+# pyright: ignore[reportMissingImports]
 import xbmc
 import xbmcgui
 import xbmcaddon
 import sys
-from typing import Optional, Dict, Any
+from typing import Dict
+
 from resources.lib import ColorPicker as cp
 
 ADDON_ID = "script.skin.helper.colorpicker"
@@ -15,6 +16,7 @@ MONITOR = xbmc.Monitor()
 
 class Main:
     '''Main entrypoint for our colorpicker'''
+
     def __init__(self):
         params = self._get_params()
         if params:
@@ -58,12 +60,9 @@ class Main:
     def _wait_for_skinshortcuts_window() -> None:
         '''Wait until skinshortcuts is active window (because of any animations that may have been applied)'''
         while not MONITOR.abortRequested() and not xbmc.getCondVisibility(
-            "Window.IsActive(DialogSelect.xml) | "
-            "Window.IsActive(script-skin_helper_service-ColorPicker.xml) | "
-            "Window.IsActive(DialogKeyboard.xml)"
+            "Window.IsActive(DialogSelect.xml) | Window.IsActive(script-skin_helper_service-ColorPicker.xml) | Window.IsActive(DialogKeyboard.xml)"
         ):
             MONITOR.waitForAbort(0.1)
-
 
 # MAIN ENTRY POINT
 if __name__ == "__main__":
