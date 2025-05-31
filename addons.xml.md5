@@ -1,1 +1,1 @@
-1279126575ff88462c27d968fe44d7c7 addons.xml
+certutil -hashfile addons.xml MD5
