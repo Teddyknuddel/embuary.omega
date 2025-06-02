@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <addons>
-<addon id="skin.embuary.omega" version="21.1.0" name="Embuary (Omega)" provider-name="sualfred, Teddyknuddel, Stogie">
+<addon id="skin.embuary.omega" version="21.1.1" name="Embuary (Omega)" provider-name="sualfred, Teddyknuddel, Stogie">
   <requires>
 	<import addon="script.embuary.helper" version="1.3.6"/>
     <import addon="script.embuary.info" version="1.2.4"/>
@@ -47,7 +47,7 @@
   </extension>
 
 </addon>
-<addon id="skin.embuary2k.omega" version="21.1.0" name="Embuary 2K (Omega)" provider-name="sualfred, Teddyknuddel, Stogie">
+<addon id="skin.embuary2k.omega" version="21.1.1" name="Embuary 2K (Omega)" provider-name="sualfred, Teddyknuddel, Stogie">
 	<requires>
 		<import addon="script.embuary.helper" version="1.3.6"/>
 		<import addon="script.embuary.info" version="1.2.4"/>
@@ -82,7 +82,7 @@
 		</assets>
 	</extension>
 </addon>
-<addon id="skin.embuary4k.omega" version="21.1.0" name="Embuary 4K (Omega)" provider-name="sualfred, Teddyknuddel, Stogie">
+<addon id="skin.embuary4k.omega" version="21.1.1" name="Embuary 4K (Omega)" provider-name="sualfred, Teddyknuddel, Stogie">
 	<requires>
 		<import addon="script.embuary.helper" version="1.3.6"/>
 		<import addon="script.embuary.info" version="1.2.4"/>
@@ -141,7 +141,6 @@
 	</assets>
     </extension>
 </addon>
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 	<addon id="script.skin.helper.colorpicker" name="Skin Helper Service ColorPicker" version="2.0.4" provider-name="marcelveldt, sualfred, Stogie and others">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
@@ -161,7 +160,6 @@
 		</assets>
 	</extension>
 </addon>
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 	<addon id="script.skin.helper.skinbackup" name="Skin Helper Service Skin Backup" version="1.0.22" provider-name="marcelveldt and others">
 	<requires>
 	    <import addon="xbmc.python" version="3.0.0"/>

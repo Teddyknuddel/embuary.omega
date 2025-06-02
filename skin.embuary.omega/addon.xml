@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.embuary.omega" version="21.1.0" name="Embuary (Omega)" provider-name="sualfred, Teddyknuddel, Stogie">
+<addon id="skin.embuary.omega" version="21.1.1" name="Embuary (Omega)" provider-name="sualfred, Teddyknuddel, Stogie">
   <requires>
 	<import addon="script.embuary.helper" version="1.3.6"/>
     <import addon="script.embuary.info" version="1.2.4"/>
