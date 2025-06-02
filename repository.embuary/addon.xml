@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.embuary" name="Embuary Skins (Omega)" version="0.3.3" provider-name="Embuary Team">
+    <extension point="xbmc.addon.repository" name="Embuary Skins Repository">
+          <dir minversion="20.999.0">
+                <info compressed="false">https://raw.githubusercontent.com/Teddyknuddel/embuary.omega/master/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/Teddyknuddel/embuary.omega/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/Teddyknuddel/embuary.omega/master/</datadir>
+            </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Embuary Skin Repository</summary>
+      <description lang="en_GB">The well-known and popular Embuary skin by Sualfred has entered the UHD era. Thanks to the 2K/4K modification by Teddyknuddel, you can utilize the full potential of a UHD display (2K also looks good on Full HD). The CPM modification (optimized for CoreELEC CPM versions in conjunction with Amlogic NG processors) provides detailed information about Dolby Vision and video audio tracks. Embuary is modeled after Emby's web UI and was developed for Emby-for-Kodi and EmbyCon users, but also works with all common Kodi setups.</description>
+		<description lang="de_DE">Die bekannte und beliebte Skin Embuary von Sualfred ist im UHD-Zeitalter angekommen. Dank der 2K/4K Modifikation von Teddyknuddel kann das volle Potenzial eines UHD Displays (auch auf FullHD macht 2K eine gute Figur) genutzt werden. Mit der CPM Modifikation (optimiert für  CoreELEC CPM Versionen in Verbindung mit Amlogic NG Prozessoren) erhält man detaillierte Informationen über Dolby Vision und Video Tonspuren. Embuary ist dem Web UI von Emby nachempfunden und für Emby-for-Kodi und EmbyCon Nutzer entwickelt worden, funktioniert aber auch für alle gängigen Kodi Setups.</description>
+		<disclaimer lang="en_GB">No mouse support. With the installation of the skin you agree that you don't use it in combination with blacklisted and illegal Kodi add-ons. We are not associated with any available build and I won't give any support to blacklisted, banned or illegal third party addons.</disclaimer>
+		<disclaimer lang="de_DE">Keine Maus Unterstützung. Mit der Installation des Skins erklärst du dich damit einverstanden keine verbotenen und illegalen Addons von Kodi damit zu benutzen. Wir stehen in keinerlei Verbindung zu verfübaren Builds und gebe keinen Support für diese oder andere illegalen Drittanbieter-Addons.</disclaimer>
+        <platform>all</platform>
+        <assets>
+           <icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>

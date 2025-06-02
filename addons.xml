@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons>
+<addon id="skin.embuary.omega" version="21.1.0" name="Embuary (Omega)" provider-name="sualfred, Teddyknuddel, Stogie">
+  <requires>
+	<import addon="script.embuary.helper" version="1.3.6"/>
+    <import addon="script.embuary.info" version="1.2.4"/>
+    <import addon="resource.uisounds.embuary" version="0.0.4"/>
+    <import addon="plugin.program.autocompletion" version="1.0.1"/>
+    <import addon="script.skinshortcuts" version="1.0.17"/>
+    <import addon="script.keymap" version="1.3.2"/>
+    <import addon="service.upnext" version="1.1.9+matrix.1"/>
+    <import addon="script.episodejumper" version="1.0.1"/>
+  </requires>
+
+  <extension point="xbmc.gui.skin" debugging="false">
+    <res width="1920" height="1080" aspect="16:9" default="true" folder="xml"/>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Embuary skin by Sualfred</summary>
+    <summary lang="de_DE">Embuary Skin von Sualfred</summary>
+    <description lang="en_GB">Embuary is based on the web UI of Emby and has been developed for Emby-For-Kodi and EmbyCon users, but will also work for any other common Kodi setup.</description>
+    <description lang="de_DE">Embuary ist dem Web UI von Emby nachempfunden und für Emby-For-Kodi und EmbyCon Nutzer entwickelt worden, aber funktioniert auch für alle gängigen Kodi Setups.</description>
+    <disclaimer lang="en_GB">No mouse support. With the installation of the skin you agree that you don't use it in combination with blacklisted and illegal Kodi add-ons. I'm not associated with any available build and I won't give any support to blacklisted, banned or illegal third party addons.</disclaimer>
+    <disclaimer lang="de_DE">Keine Maus Unterstützung. Mit der Installation des Skins erklärst du dich damit einverstanden keine verbotenen und illegalen Addons von Kodi damit zu benutzen. Ich stehe in keinerlei Verbindung zu verfübaren Builds und gebe keinen Support für diese oder andere illegalen Drittanbieter-Addons.</disclaimer>
+    <platform>all</platform>
+    <license>CC-BY-NC-ND-4.0</license>
+    <forum>https://emby.media/community/index.php?/topic/137508-embuary-2k4k-cpm-modification/</forum>
+    <source>https://github.com/Teddyknuddel/embuary.omega</source>
+
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+      <!-- Screenshots -->
+      <screenshot>resources/screenshot-01.jpg</screenshot>
+      <screenshot>resources/screenshot-02.jpg</screenshot>
+      <screenshot>resources/screenshot-03.jpg</screenshot>
+      <screenshot>resources/screenshot-04.jpg</screenshot>
+      <screenshot>resources/screenshot-05.jpg</screenshot>
+      <screenshot>resources/screenshot-06.jpg</screenshot>
+      <screenshot>resources/screenshot-07.jpg</screenshot>
+      <screenshot>resources/screenshot-08.jpg</screenshot>
+      <screenshot>resources/screenshot-09.jpg</screenshot>
+      <screenshot>resources/screenshot-10.jpg</screenshot>
+    </assets>
+
+  </extension>
+
+</addon>
+<addon id="skin.embuary2k.omega" version="21.1.0" name="Embuary 2K (Omega)" provider-name="sualfred, Teddyknuddel, Stogie">
+	<requires>
+		<import addon="script.embuary.helper" version="1.3.6"/>
+		<import addon="script.embuary.info" version="1.2.4"/>
+		<import addon="resource.uisounds.embuary" version="0.0.4"/>
+		<import addon="plugin.program.autocompletion" version="1.0.1"/>
+		<import addon="script.skinshortcuts" version="1.0.17"/>
+		<import addon="script.keymap" version="1.3.2"/>
+		<import addon="service.upnext" version="1.1.9+matrix.1"/>
+		<import addon="script.episodejumper" version="1.0.1"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="2560" height="1440" aspect="16:9" default="true" folder="xml" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Embuary skin - Creator sualfred - 2k-Modification Teddyknuddel</summary>
+		<summary lang="de_DE">Embuary Skin - Ersteller sualfred - 2k-Modifikation Teddyknuddel</summary>
+		<description lang="en_GB">The well-known and popular Embuary skin by Sualfred has entered the UHD era. Thanks to the 2K modification by Teddyknuddel, you can utilize the full potential of a UHD display (it also looks great in Full HD). The CPM modification (optimized for CoreELEC CPM versions in conjunction with Amlogic NG processors) provides detailed information about Dolby Vision and video audio tracks. Embuary is modeled after Emby's web UI and was developed for Emby-for-Kodi and EmbyCon users, but also works with all common Kodi setups.</description>
+		<description lang="de_DE">Die bekannte und beliebte Skin Embuary von Sualfred ist im UHD-Zeitalter angekommen. Dank der 2K Modifikation von Teddyknuddel kann das volle Potenzial eines UHD Displays (auch auf FullHD macht es eine gute Figur) genutzt werden. Mit der CPM Modifikation (optimiert für  CoreELEC CPM Versionen in Verbindung mit Amlogic NG Prozessoren) erhält man detaillierte Informationen über Dolby Vision und Video Tonspuren. Embuary ist dem Web UI von Emby nachempfunden und für Emby-for-Kodi und EmbyCon Nutzer entwickelt worden, funktioniert aber auch für alle gängigen Kodi Setups.</description>
+		<disclaimer lang="en_GB">No mouse support. With the installation of the skin you agree that you don't use it in combination with blacklisted and illegal Kodi add-ons. We are not associated with any available build and I won't give any support to blacklisted, banned or illegal third party addons.</disclaimer>
+		<disclaimer lang="de_DE">Keine Maus Unterstützung. Mit der Installation des Skins erklärst du dich damit einverstanden keine verbotenen und illegalen Addons von Kodi damit zu benutzen. Wir stehen in keinerlei Verbindung zu verfübaren Builds und gebe keinen Support für diese oder andere illegalen Drittanbieter-Addons.</disclaimer>
+		<platform>all</platform>
+		<license>CC-BY-NC-ND-4.0</license>
+		<forum>https://emby.media/community/index.php?/topic/137508-embuary-2k4k-cpm-modification/</forum>
+		<source>https://github.com/Teddyknuddel/embuary.omega</source>
+		<assets>
+			<icon>resources/icon2k.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/Screenshot-01.jpg</screenshot>
+			<screenshot>resources/Screenshot-02.jpg</screenshot>
+			<screenshot>resources/Screenshot-03.jpg</screenshot>
+			<screenshot>resources/Screenshot-04.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
+<addon id="skin.embuary4k.omega" version="21.1.0" name="Embuary 4K (Omega)" provider-name="sualfred, Teddyknuddel, Stogie">
+	<requires>
+		<import addon="script.embuary.helper" version="1.3.6"/>
+		<import addon="script.embuary.info" version="1.2.4"/>
+		<import addon="resource.uisounds.embuary" version="0.0.4"/>
+		<import addon="plugin.program.autocompletion" version="1.0.1"/>
+		<import addon="script.skinshortcuts" version="1.0.17"/>
+		<import addon="script.keymap" version="1.3.2"/>
+		<import addon="service.upnext" version="1.1.9+matrix.1"/>
+		<import addon="script.episodejumper" version="1.0.1"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="3840" height="2160" aspect="16:9" default="true" folder="xml" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Embuary skin - Creator sualfred - 4k-Modification Teddyknuddel</summary>
+		<summary lang="de_DE">Embuary Skin - Ersteller sualfred - 4k-Modifikation Teddyknuddel</summary>
+		<description lang="en_GB">The well-known and popular Embuary skin by Sualfred has entered the UHD era. Thanks to the 4K modification by Teddyknuddel, the full potential of a UHD display can be utilized. The CPM modification (optimized for CoreELEC CPM versions in conjunction with Amlogic NG processors) provides detailed information about Dolby Vision and video audio tracks. Embuary is modeled after Emby's web UI and was developed for Emby-for-Kodi and EmbyCon users, but also works with all common Kodi setups.</description>
+		<description lang="de_DE">Die bekannte und beliebte Skin Embuary von Sualfred ist im UHD-Zeitalter angekommen. Dank der 4K Modifikation von Teddyknuddel kann das volle Potenzial eines UHD Displays genutzt werden. Mit der CPM Modifikation (optimiert für  CoreELEC CPM Versionen in Verbindung mit Amlogic NG Prozessoren) erhält man detaillierte Informationen über Dolby Vision und Video Tonspuren. Embuary ist dem Web UI von Emby nachempfunden und für Emby-for-Kodi und EmbyCon Nutzer entwickelt worden, funktioniert aber auch für alle gängigen Kodi Setups.</description>
+		<disclaimer lang="en_GB">No mouse support. With the installation of the skin you agree that you don't use it in combination with blacklisted and illegal Kodi add-ons. We are not associated with any available build and I won't give any support to blacklisted, banned or illegal third party addons.</disclaimer>
+		<disclaimer lang="de_DE">Keine Maus Unterstützung. Mit der Installation des Skins erklärst du dich damit einverstanden keine verbotenen und illegalen Addons von Kodi damit zu benutzen. Wir stehen in keinerlei Verbindung zu verfübaren Builds und gebe keinen Support für diese oder andere illegalen Drittanbieter-Addons.</disclaimer>
+		<platform>all</platform>
+		<license>CC-BY-NC-ND-4.0</license>
+		<forum>https://emby.media/community/index.php?/topic/137508-embuary-2k4k-cpm-modification/</forum>
+		<source>https://github.com/Teddyknuddel/embuary.omega</source>
+		<assets>
+			<icon>resources/icon4k.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+			<screenshot>resources/screenshot-04.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
+<addon id="script.episodejumper"
+       name="Episode Jumper"
+       version="1.0.1"
+       provider-name="DeinName">
+    <extension point="xbmc.python.script" library="main.py">
+        <provides>executable</provides>
+    </extension>
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="de">Springt zur nächsten oder vorherigen Serienepisode (auch Addons unterstützt).</summary>
+        <description lang="de">
+            Dieses Addon ermöglicht das komfortable Springen zur nächsten oder vorherigen Episode direkt aus dem OSD heraus.
+            Unterstützt die Kodi-Bibliothek sowie Playlisten von Jellyfin, Emby und EmbyCon.
+        </description>
+        <platform>all</platform>
+	<source>https://github.com/Teddyknuddel/embuary.omega</source>
+        <author>Stogie</author>
+	<assets>
+        	<icon>resources/icon.png</icon>
+	</assets>
+    </extension>
+</addon>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+	<addon id="script.skin.helper.colorpicker" name="Skin Helper Service ColorPicker" version="2.0.4" provider-name="marcelveldt, sualfred, Stogie and others">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.pil" version="1.1.7"/>
+	</requires>
+	<extension point="xbmc.python.library" library="default.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Colorpicker for Kodi Skins. Part of Skin Helper Suite</summary>
+		<description lang="en_GB">Colorpicker for Kodi Skins. Part of Skin Helper Suite</description>
+		<platform>all</platform>
+		<license>GPL-2.0</license>
+		<forum>https://forum.kodi.tv/showthread.php?tid=235676</forum>
+		<source>https://github.com/Stogie87/Embuary-Skin</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+	<addon id="script.skin.helper.skinbackup" name="Skin Helper Service Skin Backup" version="1.0.22" provider-name="marcelveldt and others">
+	<requires>
+	    <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+    <extension point="xbmc.python.script" library="default.py" />
+	<extension library="service.py" point="xbmc.service" start="login" />
+
+	<extension point="xbmc.addon.metadata">
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+		<summary lang="en">Helper service for Kodi skins</summary>
+        <description>Helper service for Kodi skins</description>
+		<language></language>
+		<platform>all</platform>
+		<license>GPL v2.0</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
+		<website></website>
+		<source>https://github.com/Teddyknuddel/embuary.omega</source>
+	</extension>
+</addon>
+<addon id="repository.embuary" name="Embuary Skins (Omega)" version="0.3.3" provider-name="Embuary Team">
+    <extension point="xbmc.addon.repository" name="Embuary Skins Repository">
+          <dir minversion="20.999.0">
+                <info compressed="false">https://raw.githubusercontent.com/Teddyknuddel/embuary.omega/master/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/Teddyknuddel/embuary.omega/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/Teddyknuddel/embuary.omega/master/</datadir>
+            </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Embuary Skin Repository</summary>
+      <description lang="en_GB">The well-known and popular Embuary skin by Sualfred has entered the UHD era. Thanks to the 2K/4K modification by Teddyknuddel, you can utilize the full potential of a UHD display (2K also looks good on Full HD). The CPM modification (optimized for CoreELEC CPM versions in conjunction with Amlogic NG processors) provides detailed information about Dolby Vision and video audio tracks. Embuary is modeled after Emby's web UI and was developed for Emby-for-Kodi and EmbyCon users, but also works with all common Kodi setups.</description>
+		<description lang="de_DE">Die bekannte und beliebte Skin Embuary von Sualfred ist im UHD-Zeitalter angekommen. Dank der 2K/4K Modifikation von Teddyknuddel kann das volle Potenzial eines UHD Displays (auch auf FullHD macht 2K eine gute Figur) genutzt werden. Mit der CPM Modifikation (optimiert für  CoreELEC CPM Versionen in Verbindung mit Amlogic NG Prozessoren) erhält man detaillierte Informationen über Dolby Vision und Video Tonspuren. Embuary ist dem Web UI von Emby nachempfunden und für Emby-for-Kodi und EmbyCon Nutzer entwickelt worden, funktioniert aber auch für alle gängigen Kodi Setups.</description>
+		<disclaimer lang="en_GB">No mouse support. With the installation of the skin you agree that you don't use it in combination with blacklisted and illegal Kodi add-ons. We are not associated with any available build and I won't give any support to blacklisted, banned or illegal third party addons.</disclaimer>
+		<disclaimer lang="de_DE">Keine Maus Unterstützung. Mit der Installation des Skins erklärst du dich damit einverstanden keine verbotenen und illegalen Addons von Kodi damit zu benutzen. Wir stehen in keinerlei Verbindung zu verfübaren Builds und gebe keinen Support für diese oder andere illegalen Drittanbieter-Addons.</disclaimer>
+        <platform>all</platform>
+        <assets>
+           <icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon> 
+</addons>
