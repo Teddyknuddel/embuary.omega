@@ -4,7 +4,7 @@ Die bekannte und beliebte Skin Embuary von Sualfred ist im UHD-Zeitalter angekom
 
 ## Installation
 * Lade das aktuellste Release des Repositories als zip-Archiv herunter (siehe [Release Bereich](https://github.com/Teddyknuddel/embuary.omega/releases)).
-* Installiere das zip-Archiv (repository.embuary.omega-x.y.z.zip) über die Funktion "Aus ZIP-Datei installieren" als Addon in Kodi.
+* Installiere das zip-Archiv (repository.embuary-x.y.z.zip) über die Funktion "Aus ZIP-Datei installieren" als Addon in Kodi.
 * Danach kann Embuary 2K/4K über den Kodi Addon Browser über die Funktion "Aus Repository installieren" installiert werden.
 
 ## Updates
@@ -16,7 +16,7 @@ The well-known and popular Embuary skin by Sualfred has entered the UHD era. Tha
 
 ## Installation
 * Download the latest release of the repository as a zip archive (see the [Release Section](https://github.com/Teddyknuddel/embuary.omega/releases)).
-* Install the zip archive (repository.embuary.omega-x.y.z.zip) as an addon in Kodi using the "Install from ZIP file" function.
+* Install the zip archive (repository.embuary-x.y.z.zip) as an addon in Kodi using the "Install from ZIP file" function.
 * Afterwards, Embuary 2K/4K can be installed via the Kodi addon browser using the "Install from repository" function.
 
 ## Updates
