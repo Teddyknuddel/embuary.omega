@@ -47,7 +47,7 @@
   </extension>
 
 </addon>
-<addon id="skin.embuary2k.omega" version="21.1.1" name="Embuary 2K (Omega)" provider-name="sualfred, Teddyknuddel, Stogie">
+<addon id="skin.embuary2k.omega" version="21.1.2" name="Embuary 2K (Omega)" provider-name="sualfred, Teddyknuddel, Stogie">
 	<requires>
 		<import addon="script.embuary.helper" version="1.3.6"/>
 		<import addon="script.embuary.info" version="1.2.4"/>
@@ -55,8 +55,6 @@
 		<import addon="plugin.program.autocompletion" version="1.0.1"/>
 		<import addon="script.skinshortcuts" version="1.0.17"/>
 		<import addon="script.keymap" version="1.3.2"/>
-		<import addon="service.upnext" version="1.1.9+matrix.1"/>
-		<import addon="script.episodejumper" version="1.0.1"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="2560" height="1440" aspect="16:9" default="true" folder="xml" />
@@ -82,16 +80,14 @@
 		</assets>
 	</extension>
 </addon>
-<addon id="skin.embuary4k.omega" version="21.1.1" name="Embuary 4K (Omega)" provider-name="sualfred, Teddyknuddel, Stogie">
+<addon id="skin.embuary4k.omega" version="21.1.2" name="Embuary 4K (Omega)" provider-name="sualfred, Teddyknuddel, Stogie">
 	<requires>
 		<import addon="script.embuary.helper" version="1.3.6"/>
 		<import addon="script.embuary.info" version="1.2.4"/>
 		<import addon="resource.uisounds.embuary" version="0.0.4"/>
 		<import addon="plugin.program.autocompletion" version="1.0.1"/>
 		<import addon="script.skinshortcuts" version="1.0.17"/>
-		<import addon="script.keymap" version="1.3.2"/>
-		<import addon="service.upnext" version="1.1.9+matrix.1"/>
-		<import addon="script.episodejumper" version="1.0.1"/>
+		<import addon="script.keymap" version="1.3.2"/>		
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="3840" height="2160" aspect="16:9" default="true" folder="xml" />
@@ -116,30 +112,6 @@
 			<screenshot>resources/screenshot-04.jpg</screenshot>
 		</assets>
 	</extension>
-</addon>
-<addon id="script.episodejumper"
-       name="Episode Jumper"
-       version="1.0.1"
-       provider-name="DeinName">
-    <extension point="xbmc.python.script" library="main.py">
-        <provides>executable</provides>
-    </extension>
-    <requires>
-        <import addon="xbmc.python" version="3.0.0"/>
-    </requires>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="de">Springt zur nächsten oder vorherigen Serienepisode (auch Addons unterstützt).</summary>
-        <description lang="de">
-            Dieses Addon ermöglicht das komfortable Springen zur nächsten oder vorherigen Episode direkt aus dem OSD heraus.
-            Unterstützt die Kodi-Bibliothek sowie Playlisten von Jellyfin, Emby und EmbyCon.
-        </description>
-        <platform>all</platform>
-	<source>https://github.com/Teddyknuddel/embuary.omega</source>
-        <author>Stogie</author>
-	<assets>
-        	<icon>resources/icon.png</icon>
-	</assets>
-    </extension>
 </addon>
 	<addon id="script.skin.helper.colorpicker" name="Skin Helper Service ColorPicker" version="2.0.4" provider-name="marcelveldt, sualfred, Stogie and others">
 	<requires>
